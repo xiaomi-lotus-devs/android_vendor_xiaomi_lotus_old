@@ -475,15 +475,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lotus/proprietary/vendor/lib/hw/android.hardware.light@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.light@2.0-impl-mediatek.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.memtrack@1.0-impl.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/hw/android.hardware.sensors@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.sensors@1.0-impl-mediatek.so \
-    vendor/xiaomi/lotus/proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.0-impl.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/xiaomi/lotus/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/hw/audio.primary.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6765.so \
-    vendor/xiaomi/lotus/proprietary/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/hw/audio.r_submix.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6765.so \
-    vendor/xiaomi/lotus/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/hw/audio.usb.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt6765.so \
-    vendor/xiaomi/lotus/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/hw/awinic.audio.effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/awinic.audio.effect.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/hw/dfps.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/dfps.mt6765.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/hw/flp.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.mt6765.so \
@@ -799,7 +794,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lotus/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/libtida.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtida.so \
-    vendor/xiaomi/lotus/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/libufwriter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libufwriter.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui_ext.so \
@@ -834,7 +828,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lotus/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/mibokeh_mt6762_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_mt6762_opencl.bin \
-    vendor/xiaomi/lotus/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/vendor.mediatek.hardware.audio@2.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@2.1_vendor.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib/vendor.mediatek.hardware.camera.callbackclient@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.callbackclient@1.0_vendor.so \
@@ -885,13 +878,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.memtrack@1.0-impl.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/hw/android.hardware.sensors@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@1.0-impl-mediatek.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/xiaomi/lotus/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/hw/audio.primary.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6765.so \
-    vendor/xiaomi/lotus/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/hw/audio.r_submix.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6765.so \
-    vendor/xiaomi/lotus/proprietary/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/hw/audio.usb.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.mt6765.so \
-    vendor/xiaomi/lotus/proprietary/vendor/lib64/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio_policy.stub.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/hw/dfps.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/dfps.mt6765.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/hw/flp.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.mt6765.so \
@@ -1121,7 +1110,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeclientjni.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/libtida.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtida.so \
-    vendor/xiaomi/lotus/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/libufwriter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libufwriter.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libui_ext.so \
@@ -1145,7 +1133,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
-    vendor/xiaomi/lotus/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@2.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@2.1_vendor.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.callbackclient@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.callbackclient@1.0_vendor.so \
     vendor/xiaomi/lotus/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.callbackclient@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.callbackclient@1.1_vendor.so \
